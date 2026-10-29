@@ -1,0 +1,1015 @@
+{
+  "and": {
+    "drive_strength": 1,
+    "function_family": "AND",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "and2s1": {
+    "drive_strength": 1,
+    "function_family": "AND",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "and2s2": {
+    "drive_strength": 2,
+    "function_family": "AND",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "and2s3": {
+    "drive_strength": 3,
+    "function_family": "AND",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "and3s1": {
+    "drive_strength": 1,
+    "function_family": "AND",
+    "is_sequential": false,
+    "n_inputs": 3,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "and3s2": {
+    "drive_strength": 2,
+    "function_family": "AND",
+    "is_sequential": false,
+    "n_inputs": 3,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "and3s3": {
+    "drive_strength": 3,
+    "function_family": "AND",
+    "is_sequential": false,
+    "n_inputs": 3,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "and4s1": {
+    "drive_strength": 1,
+    "function_family": "AND",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "and4s2": {
+    "drive_strength": 2,
+    "function_family": "AND",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "and5s1": {
+    "drive_strength": 1,
+    "function_family": "AND",
+    "is_sequential": false,
+    "n_inputs": 5,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "and9s1": {
+    "drive_strength": 1,
+    "function_family": "AND",
+    "is_sequential": false,
+    "n_inputs": 9,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "aoai1112s3": {
+    "drive_strength": 3,
+    "function_family": "AOI",
+    "is_sequential": false,
+    "n_inputs": 5,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "aoai122s2": {
+    "drive_strength": 2,
+    "function_family": "AOI",
+    "is_sequential": false,
+    "n_inputs": 5,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "aoi123s2": {
+    "drive_strength": 2,
+    "function_family": "AOI",
+    "is_sequential": false,
+    "n_inputs": 6,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "aoi13s2": {
+    "drive_strength": 2,
+    "function_family": "AOI",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "aoi13s3": {
+    "drive_strength": 3,
+    "function_family": "AOI",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "aoi211s1": {
+    "drive_strength": 1,
+    "function_family": "AOI",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "aoi211s2": {
+    "drive_strength": 2,
+    "function_family": "AOI",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "aoi21s2": {
+    "drive_strength": 2,
+    "function_family": "AOI",
+    "is_sequential": false,
+    "n_inputs": 3,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "aoi21s3": {
+    "drive_strength": 3,
+    "function_family": "AOI",
+    "is_sequential": false,
+    "n_inputs": 3,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "aoi221s2": {
+    "drive_strength": 2,
+    "function_family": "AOI",
+    "is_sequential": false,
+    "n_inputs": 5,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "aoi222s2": {
+    "drive_strength": 2,
+    "function_family": "AOI",
+    "is_sequential": false,
+    "n_inputs": 6,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "aoi22s2": {
+    "drive_strength": 2,
+    "function_family": "AOI",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "aoi22s3": {
+    "drive_strength": 3,
+    "function_family": "AOI",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "aoi23s2": {
+    "drive_strength": 2,
+    "function_family": "AOI",
+    "is_sequential": false,
+    "n_inputs": 5,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "aoi33s2": {
+    "drive_strength": 2,
+    "function_family": "AOI",
+    "is_sequential": false,
+    "n_inputs": 6,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "aoi42s1": {
+    "drive_strength": 1,
+    "function_family": "AOI",
+    "is_sequential": false,
+    "n_inputs": 6,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "aoi42s2": {
+    "drive_strength": 2,
+    "function_family": "AOI",
+    "is_sequential": false,
+    "n_inputs": 6,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "buf": {
+    "drive_strength": 1,
+    "function_family": "BUF",
+    "is_sequential": false,
+    "n_inputs": 1,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "dff": {
+    "drive_strength": 1,
+    "function_family": "DFF",
+    "is_sequential": true,
+    "n_inputs": 1,
+    "output_ports": [
+      "Q",
+      "QN"
+    ]
+  },
+  "dffcs2": {
+    "drive_strength": 2,
+    "function_family": "DFF",
+    "is_sequential": true,
+    "n_inputs": 1,
+    "output_ports": [
+      "Q",
+      "QN"
+    ]
+  },
+  "dffles2": {
+    "drive_strength": 2,
+    "function_family": "DFF",
+    "is_sequential": true,
+    "n_inputs": 1,
+    "output_ports": [
+      "Q",
+      "QN"
+    ]
+  },
+  "dffs2": {
+    "drive_strength": 2,
+    "function_family": "DFF",
+    "is_sequential": true,
+    "n_inputs": 1,
+    "output_ports": [
+      "Q",
+      "QN"
+    ]
+  },
+  "dsmxc31s2": {
+    "drive_strength": 2,
+    "function_family": "MUX",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "hi1s1": {
+    "drive_strength": 1,
+    "function_family": "INV",
+    "is_sequential": false,
+    "n_inputs": 1,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "i1s1": {
+    "drive_strength": 1,
+    "function_family": "INV",
+    "is_sequential": false,
+    "n_inputs": 1,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "i1s11": {
+    "drive_strength": 11,
+    "function_family": "INV",
+    "is_sequential": false,
+    "n_inputs": 1,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "i1s12": {
+    "drive_strength": 12,
+    "function_family": "INV",
+    "is_sequential": false,
+    "n_inputs": 1,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "i1s3": {
+    "drive_strength": 3,
+    "function_family": "INV",
+    "is_sequential": false,
+    "n_inputs": 1,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "ib1s1": {
+    "drive_strength": 1,
+    "function_family": "INV",
+    "is_sequential": false,
+    "n_inputs": 1,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "ib1s2": {
+    "drive_strength": 2,
+    "function_family": "INV",
+    "is_sequential": false,
+    "n_inputs": 1,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "ib1s5": {
+    "drive_strength": 5,
+    "function_family": "INV",
+    "is_sequential": false,
+    "n_inputs": 1,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "ib1s9": {
+    "drive_strength": 9,
+    "function_family": "INV",
+    "is_sequential": false,
+    "n_inputs": 1,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "mx21s3": {
+    "drive_strength": 3,
+    "function_family": "MUX",
+    "is_sequential": false,
+    "n_inputs": 3,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "mx41s1": {
+    "drive_strength": 1,
+    "function_family": "MUX",
+    "is_sequential": false,
+    "n_inputs": 5,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "mx41s3": {
+    "drive_strength": 3,
+    "function_family": "MUX",
+    "is_sequential": false,
+    "n_inputs": 5,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "mxi21s1": {
+    "drive_strength": 1,
+    "function_family": "MUX",
+    "is_sequential": false,
+    "n_inputs": 3,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "mxi21s2": {
+    "drive_strength": 2,
+    "function_family": "MUX",
+    "is_sequential": false,
+    "n_inputs": 3,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "mxi21s3": {
+    "drive_strength": 3,
+    "function_family": "MUX",
+    "is_sequential": false,
+    "n_inputs": 3,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "mxi41s1": {
+    "drive_strength": 1,
+    "function_family": "MUX",
+    "is_sequential": false,
+    "n_inputs": 5,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "mxi41s2": {
+    "drive_strength": 2,
+    "function_family": "MUX",
+    "is_sequential": false,
+    "n_inputs": 5,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nand": {
+    "drive_strength": 1,
+    "function_family": "NAND",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nb1s1": {
+    "drive_strength": 1,
+    "function_family": "BUF",
+    "is_sequential": false,
+    "n_inputs": 1,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nnd2s1": {
+    "drive_strength": 1,
+    "function_family": "NAND",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nnd2s2": {
+    "drive_strength": 2,
+    "function_family": "NAND",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nnd2s3": {
+    "drive_strength": 3,
+    "function_family": "NAND",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nnd3s1": {
+    "drive_strength": 1,
+    "function_family": "NAND",
+    "is_sequential": false,
+    "n_inputs": 3,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nnd3s2": {
+    "drive_strength": 2,
+    "function_family": "NAND",
+    "is_sequential": false,
+    "n_inputs": 3,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nnd3s3": {
+    "drive_strength": 3,
+    "function_family": "NAND",
+    "is_sequential": false,
+    "n_inputs": 3,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nnd4s1": {
+    "drive_strength": 1,
+    "function_family": "NAND",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nnd4s2": {
+    "drive_strength": 2,
+    "function_family": "NAND",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nnd4s3": {
+    "drive_strength": 3,
+    "function_family": "NAND",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nnd5s3": {
+    "drive_strength": 3,
+    "function_family": "NAND",
+    "is_sequential": false,
+    "n_inputs": 5,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nor": {
+    "drive_strength": 1,
+    "function_family": "NOR",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nor2s1": {
+    "drive_strength": 1,
+    "function_family": "NOR",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nor2s2": {
+    "drive_strength": 2,
+    "function_family": "NOR",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nor2s3": {
+    "drive_strength": 3,
+    "function_family": "NOR",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nor3s1": {
+    "drive_strength": 1,
+    "function_family": "NOR",
+    "is_sequential": false,
+    "n_inputs": 3,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nor3s2": {
+    "drive_strength": 2,
+    "function_family": "NOR",
+    "is_sequential": false,
+    "n_inputs": 3,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nor3s3": {
+    "drive_strength": 3,
+    "function_family": "NOR",
+    "is_sequential": false,
+    "n_inputs": 3,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nor4s1": {
+    "drive_strength": 1,
+    "function_family": "NOR",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nor4s3": {
+    "drive_strength": 3,
+    "function_family": "NOR",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nor5s1": {
+    "drive_strength": 1,
+    "function_family": "NOR",
+    "is_sequential": false,
+    "n_inputs": 5,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nor5s3": {
+    "drive_strength": 3,
+    "function_family": "NOR",
+    "is_sequential": false,
+    "n_inputs": 5,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nor6s1": {
+    "drive_strength": 1,
+    "function_family": "NOR",
+    "is_sequential": false,
+    "n_inputs": 6,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "nor6s3": {
+    "drive_strength": 3,
+    "function_family": "NOR",
+    "is_sequential": false,
+    "n_inputs": 6,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "not": {
+    "drive_strength": 1,
+    "function_family": "INV",
+    "is_sequential": false,
+    "n_inputs": 1,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "oai1112s1": {
+    "drive_strength": 1,
+    "function_family": "OAI",
+    "is_sequential": false,
+    "n_inputs": 5,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "oai1112s2": {
+    "drive_strength": 2,
+    "function_family": "OAI",
+    "is_sequential": false,
+    "n_inputs": 5,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "oai13s2": {
+    "drive_strength": 2,
+    "function_family": "OAI",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "oai211s1": {
+    "drive_strength": 1,
+    "function_family": "OAI",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "oai211s2": {
+    "drive_strength": 2,
+    "function_family": "OAI",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "oai21s2": {
+    "drive_strength": 2,
+    "function_family": "OAI",
+    "is_sequential": false,
+    "n_inputs": 3,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "oai21s3": {
+    "drive_strength": 3,
+    "function_family": "OAI",
+    "is_sequential": false,
+    "n_inputs": 3,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "oai221s2": {
+    "drive_strength": 2,
+    "function_family": "OAI",
+    "is_sequential": false,
+    "n_inputs": 5,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "oai222s1": {
+    "drive_strength": 1,
+    "function_family": "OAI",
+    "is_sequential": false,
+    "n_inputs": 6,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "oai22s1": {
+    "drive_strength": 1,
+    "function_family": "OAI",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "oai22s2": {
+    "drive_strength": 2,
+    "function_family": "OAI",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "oai24s3": {
+    "drive_strength": 3,
+    "function_family": "OAI",
+    "is_sequential": false,
+    "n_inputs": 6,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "oai321s1": {
+    "drive_strength": 1,
+    "function_family": "OAI",
+    "is_sequential": false,
+    "n_inputs": 6,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "oai322s1": {
+    "drive_strength": 1,
+    "function_family": "OAI",
+    "is_sequential": false,
+    "n_inputs": 7,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "oai32s1": {
+    "drive_strength": 1,
+    "function_family": "OAI",
+    "is_sequential": false,
+    "n_inputs": 5,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "oai33s1": {
+    "drive_strength": 1,
+    "function_family": "OAI",
+    "is_sequential": false,
+    "n_inputs": 6,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "oai33s3": {
+    "drive_strength": 3,
+    "function_family": "OAI",
+    "is_sequential": false,
+    "n_inputs": 6,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "or": {
+    "drive_strength": 1,
+    "function_family": "OR",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "or2s1": {
+    "drive_strength": 1,
+    "function_family": "OR",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "or2s2": {
+    "drive_strength": 2,
+    "function_family": "OR",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "or2s3": {
+    "drive_strength": 3,
+    "function_family": "OR",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "or3s1": {
+    "drive_strength": 1,
+    "function_family": "OR",
+    "is_sequential": false,
+    "n_inputs": 3,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "or3s3": {
+    "drive_strength": 3,
+    "function_family": "OR",
+    "is_sequential": false,
+    "n_inputs": 3,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "or4s1": {
+    "drive_strength": 1,
+    "function_family": "OR",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "or4s3": {
+    "drive_strength": 3,
+    "function_family": "OR",
+    "is_sequential": false,
+    "n_inputs": 4,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "or5s1": {
+    "drive_strength": 1,
+    "function_family": "OR",
+    "is_sequential": false,
+    "n_inputs": 5,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "or5s3": {
+    "drive_strength": 3,
+    "function_family": "OR",
+    "is_sequential": false,
+    "n_inputs": 5,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "sdffs1": {
+    "drive_strength": 1,
+    "function_family": "DFF",
+    "is_sequential": true,
+    "n_inputs": 1,
+    "output_ports": [
+      "Q",
+      "QN"
+    ]
+  },
+  "xnr2s1": {
+    "drive_strength": 1,
+    "function_family": "XNOR",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "xnr2s2": {
+    "drive_strength": 2,
+    "function_family": "XNOR",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "xnr2s3": {
+    "drive_strength": 3,
+    "function_family": "XNOR",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "xor": {
+    "drive_strength": 1,
+    "function_family": "XOR",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "xor2s1": {
+    "drive_strength": 1,
+    "function_family": "XOR",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "xor2s2": {
+    "drive_strength": 2,
+    "function_family": "XOR",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  },
+  "xor2s3": {
+    "drive_strength": 3,
+    "function_family": "XOR",
+    "is_sequential": false,
+    "n_inputs": 2,
+    "output_ports": [
+      "Q"
+    ]
+  }
+}

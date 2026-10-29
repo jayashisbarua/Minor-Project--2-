@@ -1,0 +1,54 @@
+{
+  "total_converted": 929,
+  "total_errors": 0,
+  "families": {
+    "s1423": {
+      "count": 91,
+      "total_nodes": 48170,
+      "total_struct_edges": 215528,
+      "total_func_edges": 125816
+    },
+    "c5315": {
+      "count": 110,
+      "total_nodes": 287754,
+      "total_struct_edges": 996764,
+      "total_func_edges": 705552
+    },
+    "c2670": {
+      "count": 100,
+      "total_nodes": 106723,
+      "total_struct_edges": 281862,
+      "total_func_edges": 167511
+    },
+    "c6288": {
+      "count": 110,
+      "total_nodes": 273642,
+      "total_struct_edges": 1067636,
+      "total_func_edges": 540941
+    },
+    "s35932": {
+      "count": 103,
+      "total_nodes": 743935,
+      "total_struct_edges": 3559160,
+      "total_func_edges": 2117472
+    },
+    "c3540": {
+      "count": 100,
+      "total_nodes": 121312,
+      "total_struct_edges": 429862,
+      "total_func_edges": 266925
+    },
+    "s13207": {
+      "count": 150,
+      "total_nodes": 374555,
+      "total_struct_edges": 1837970,
+      "total_func_edges": 1041015
+    },
+    "s15850": {
+      "count": 150,
+      "total_nodes": 475872,
+      "total_struct_edges": 2133086,
+      "total_func_edges": 1284503
+    }
+  }
+}

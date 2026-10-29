@@ -1,0 +1,2650 @@
+{
+  "analysis_type": "hardware_trojan_context_expansion",
+  "total_regions_flagged": 4,
+  "total_seed_gates_analyzed": 10,
+  "regions": [
+    {
+      "region_id": "R0",
+      "num_gates": 78,
+      "num_internal_connections": 174,
+      "num_seed_gates": 7,
+      "max_suspicion": 1.0,
+      "mean_suspicion": 0.1141,
+      "gates": [
+        {
+          "id": "G0",
+          "is_seed": false,
+          "cell_family": "UNKNOWN",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0342,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G1",
+          "is_seed": false,
+          "cell_family": "UNKNOWN",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.1111,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G2",
+          "is_seed": false,
+          "cell_family": "UNKNOWN",
+          "fan_in": 1,
+          "fan_out": 1,
+          "gnn_suspicion_score": 0.0717,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G3",
+          "is_seed": false,
+          "cell_family": "UNKNOWN",
+          "fan_in": 5,
+          "fan_out": 5,
+          "gnn_suspicion_score": 0.0918,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G4",
+          "is_seed": false,
+          "cell_family": "UNKNOWN",
+          "fan_in": 5,
+          "fan_out": 5,
+          "gnn_suspicion_score": 0.0919,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G5",
+          "is_seed": false,
+          "cell_family": "UNKNOWN",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0257,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G6",
+          "is_seed": false,
+          "cell_family": "UNKNOWN",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0473,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G7",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G8",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 6,
+          "fan_out": 6,
+          "gnn_suspicion_score": 0.1177,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G9",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0056,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G10",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0321,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G11",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.136,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G12",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G13",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G14",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0964,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G15",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0197,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G16",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0233,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G17",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G18",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0173,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G19",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0405,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G20",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 11,
+          "fan_out": 11,
+          "gnn_suspicion_score": 0.1476,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G21",
+          "is_seed": false,
+          "cell_family": "INV",
+          "fan_in": 5,
+          "fan_out": 5,
+          "gnn_suspicion_score": 0.0593,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G22",
+          "is_seed": false,
+          "cell_family": "INV",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.0503,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G23",
+          "is_seed": true,
+          "cell_family": "NAND",
+          "fan_in": 6,
+          "fan_out": 6,
+          "gnn_suspicion_score": 0.1799,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G24",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 5,
+          "fan_out": 5,
+          "gnn_suspicion_score": 0.0612,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G25",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G26",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0629,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G27",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G28",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.0466,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G29",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.0618,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G30",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G31",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0736,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G32",
+          "is_seed": false,
+          "cell_family": "INV",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G33",
+          "is_seed": false,
+          "cell_family": "INV",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G34",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.1305,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G35",
+          "is_seed": true,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.1775,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G36",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0297,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G37",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.0491,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G38",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 9,
+          "fan_out": 9,
+          "gnn_suspicion_score": 0.0049,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G39",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0459,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G40",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G41",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0741,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G42",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0892,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G43",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0636,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G44",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0143,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G45",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.026,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G46",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0895,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G47",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G48",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0472,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G49",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.1025,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G50",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0493,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G51",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0494,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G52",
+          "is_seed": false,
+          "cell_family": "INV",
+          "fan_in": 8,
+          "fan_out": 8,
+          "gnn_suspicion_score": 0.1001,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G53",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.0628,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G54",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0441,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G55",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0124,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G56",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.1214,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G57",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.1419,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G58",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0319,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G59",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.0954,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G60",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G61",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G62",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.0322,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G63",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0691,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G64",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0726,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G65",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.0615,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G66",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0687,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G67",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.124,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G68",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.1397,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G69",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.0561,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G70",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 5,
+          "fan_out": 5,
+          "gnn_suspicion_score": 0.0565,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G71",
+          "is_seed": false,
+          "cell_family": "INV",
+          "fan_in": 2,
+          "fan_out": 2,
+          "gnn_suspicion_score": 0.0022,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G72",
+          "is_seed": false,
+          "cell_family": "INV",
+          "fan_in": 2,
+          "fan_out": 2,
+          "gnn_suspicion_score": 0.0706,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G73",
+          "is_seed": true,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.9423,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G74",
+          "is_seed": true,
+          "cell_family": "NAND",
+          "fan_in": 5,
+          "fan_out": 5,
+          "gnn_suspicion_score": 1.0,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G75",
+          "is_seed": true,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.9272,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G76",
+          "is_seed": true,
+          "cell_family": "OR",
+          "fan_in": 6,
+          "fan_out": 6,
+          "gnn_suspicion_score": 1.0,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G77",
+          "is_seed": true,
+          "cell_family": "XOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.9178,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        }
+      ],
+      "internal_connections": [
+        {
+          "from": "G0",
+          "to": "G22"
+        },
+        {
+          "from": "G22",
+          "to": "G0"
+        },
+        {
+          "from": "G0",
+          "to": "G23"
+        },
+        {
+          "from": "G23",
+          "to": "G0"
+        },
+        {
+          "from": "G0",
+          "to": "G24"
+        },
+        {
+          "from": "G24",
+          "to": "G0"
+        },
+        {
+          "from": "G1",
+          "to": "G48"
+        },
+        {
+          "from": "G48",
+          "to": "G1"
+        },
+        {
+          "from": "G2",
+          "to": "G53"
+        },
+        {
+          "from": "G53",
+          "to": "G2"
+        },
+        {
+          "from": "G3",
+          "to": "G65"
+        },
+        {
+          "from": "G65",
+          "to": "G3"
+        },
+        {
+          "from": "G4",
+          "to": "G45"
+        },
+        {
+          "from": "G45",
+          "to": "G4"
+        },
+        {
+          "from": "G5",
+          "to": "G32"
+        },
+        {
+          "from": "G32",
+          "to": "G5"
+        },
+        {
+          "from": "G5",
+          "to": "G35"
+        },
+        {
+          "from": "G35",
+          "to": "G5"
+        },
+        {
+          "from": "G5",
+          "to": "G61"
+        },
+        {
+          "from": "G61",
+          "to": "G5"
+        },
+        {
+          "from": "G6",
+          "to": "G33"
+        },
+        {
+          "from": "G33",
+          "to": "G6"
+        },
+        {
+          "from": "G6",
+          "to": "G34"
+        },
+        {
+          "from": "G34",
+          "to": "G6"
+        },
+        {
+          "from": "G8",
+          "to": "G70"
+        },
+        {
+          "from": "G70",
+          "to": "G8"
+        },
+        {
+          "from": "G9",
+          "to": "G17"
+        },
+        {
+          "from": "G17",
+          "to": "G9"
+        },
+        {
+          "from": "G10",
+          "to": "G14"
+        },
+        {
+          "from": "G14",
+          "to": "G10"
+        },
+        {
+          "from": "G13",
+          "to": "G15"
+        },
+        {
+          "from": "G15",
+          "to": "G13"
+        },
+        {
+          "from": "G14",
+          "to": "G15"
+        },
+        {
+          "from": "G15",
+          "to": "G14"
+        },
+        {
+          "from": "G15",
+          "to": "G17"
+        },
+        {
+          "from": "G17",
+          "to": "G15"
+        },
+        {
+          "from": "G16",
+          "to": "G18"
+        },
+        {
+          "from": "G18",
+          "to": "G16"
+        },
+        {
+          "from": "G17",
+          "to": "G18"
+        },
+        {
+          "from": "G18",
+          "to": "G17"
+        },
+        {
+          "from": "G19",
+          "to": "G48"
+        },
+        {
+          "from": "G48",
+          "to": "G19"
+        },
+        {
+          "from": "G20",
+          "to": "G53"
+        },
+        {
+          "from": "G53",
+          "to": "G20"
+        },
+        {
+          "from": "G21",
+          "to": "G70"
+        },
+        {
+          "from": "G70",
+          "to": "G21"
+        },
+        {
+          "from": "G23",
+          "to": "G9"
+        },
+        {
+          "from": "G9",
+          "to": "G23"
+        },
+        {
+          "from": "G23",
+          "to": "G10"
+        },
+        {
+          "from": "G10",
+          "to": "G23"
+        },
+        {
+          "from": "G23",
+          "to": "G13"
+        },
+        {
+          "from": "G13",
+          "to": "G23"
+        },
+        {
+          "from": "G23",
+          "to": "G16"
+        },
+        {
+          "from": "G16",
+          "to": "G23"
+        },
+        {
+          "from": "G24",
+          "to": "G12"
+        },
+        {
+          "from": "G12",
+          "to": "G24"
+        },
+        {
+          "from": "G24",
+          "to": "G60"
+        },
+        {
+          "from": "G60",
+          "to": "G24"
+        },
+        {
+          "from": "G24",
+          "to": "G76"
+        },
+        {
+          "from": "G76",
+          "to": "G24"
+        },
+        {
+          "from": "G27",
+          "to": "G62"
+        },
+        {
+          "from": "G62",
+          "to": "G27"
+        },
+        {
+          "from": "G29",
+          "to": "G30"
+        },
+        {
+          "from": "G30",
+          "to": "G29"
+        },
+        {
+          "from": "G29",
+          "to": "G74"
+        },
+        {
+          "from": "G74",
+          "to": "G29"
+        },
+        {
+          "from": "G32",
+          "to": "G34"
+        },
+        {
+          "from": "G34",
+          "to": "G32"
+        },
+        {
+          "from": "G33",
+          "to": "G35"
+        },
+        {
+          "from": "G35",
+          "to": "G33"
+        },
+        {
+          "from": "G33",
+          "to": "G61"
+        },
+        {
+          "from": "G61",
+          "to": "G33"
+        },
+        {
+          "from": "G34",
+          "to": "G36"
+        },
+        {
+          "from": "G36",
+          "to": "G34"
+        },
+        {
+          "from": "G34",
+          "to": "G74"
+        },
+        {
+          "from": "G74",
+          "to": "G34"
+        },
+        {
+          "from": "G35",
+          "to": "G36"
+        },
+        {
+          "from": "G36",
+          "to": "G35"
+        },
+        {
+          "from": "G36",
+          "to": "G54"
+        },
+        {
+          "from": "G54",
+          "to": "G36"
+        },
+        {
+          "from": "G37",
+          "to": "G62"
+        },
+        {
+          "from": "G62",
+          "to": "G37"
+        },
+        {
+          "from": "G38",
+          "to": "G52"
+        },
+        {
+          "from": "G52",
+          "to": "G38"
+        },
+        {
+          "from": "G39",
+          "to": "G40"
+        },
+        {
+          "from": "G40",
+          "to": "G39"
+        },
+        {
+          "from": "G40",
+          "to": "G24"
+        },
+        {
+          "from": "G24",
+          "to": "G40"
+        },
+        {
+          "from": "G42",
+          "to": "G43"
+        },
+        {
+          "from": "G43",
+          "to": "G42"
+        },
+        {
+          "from": "G43",
+          "to": "G57"
+        },
+        {
+          "from": "G57",
+          "to": "G43"
+        },
+        {
+          "from": "G45",
+          "to": "G46"
+        },
+        {
+          "from": "G46",
+          "to": "G45"
+        },
+        {
+          "from": "G45",
+          "to": "G74"
+        },
+        {
+          "from": "G74",
+          "to": "G45"
+        },
+        {
+          "from": "G47",
+          "to": "G49"
+        },
+        {
+          "from": "G49",
+          "to": "G47"
+        },
+        {
+          "from": "G48",
+          "to": "G77"
+        },
+        {
+          "from": "G77",
+          "to": "G48"
+        },
+        {
+          "from": "G49",
+          "to": "G31"
+        },
+        {
+          "from": "G31",
+          "to": "G49"
+        },
+        {
+          "from": "G50",
+          "to": "G29"
+        },
+        {
+          "from": "G29",
+          "to": "G50"
+        },
+        {
+          "from": "G51",
+          "to": "G29"
+        },
+        {
+          "from": "G29",
+          "to": "G51"
+        },
+        {
+          "from": "G52",
+          "to": "G23"
+        },
+        {
+          "from": "G23",
+          "to": "G52"
+        },
+        {
+          "from": "G52",
+          "to": "G39"
+        },
+        {
+          "from": "G39",
+          "to": "G52"
+        },
+        {
+          "from": "G52",
+          "to": "G41"
+        },
+        {
+          "from": "G41",
+          "to": "G52"
+        },
+        {
+          "from": "G52",
+          "to": "G42"
+        },
+        {
+          "from": "G42",
+          "to": "G52"
+        },
+        {
+          "from": "G52",
+          "to": "G44"
+        },
+        {
+          "from": "G44",
+          "to": "G52"
+        },
+        {
+          "from": "G52",
+          "to": "G63"
+        },
+        {
+          "from": "G63",
+          "to": "G52"
+        },
+        {
+          "from": "G52",
+          "to": "G64"
+        },
+        {
+          "from": "G64",
+          "to": "G52"
+        },
+        {
+          "from": "G53",
+          "to": "G26"
+        },
+        {
+          "from": "G26",
+          "to": "G53"
+        },
+        {
+          "from": "G53",
+          "to": "G76"
+        },
+        {
+          "from": "G76",
+          "to": "G53"
+        },
+        {
+          "from": "G55",
+          "to": "G59"
+        },
+        {
+          "from": "G59",
+          "to": "G55"
+        },
+        {
+          "from": "G56",
+          "to": "G57"
+        },
+        {
+          "from": "G57",
+          "to": "G56"
+        },
+        {
+          "from": "G57",
+          "to": "G11"
+        },
+        {
+          "from": "G11",
+          "to": "G57"
+        },
+        {
+          "from": "G57",
+          "to": "G75"
+        },
+        {
+          "from": "G75",
+          "to": "G57"
+        },
+        {
+          "from": "G58",
+          "to": "G59"
+        },
+        {
+          "from": "G59",
+          "to": "G58"
+        },
+        {
+          "from": "G59",
+          "to": "G7"
+        },
+        {
+          "from": "G7",
+          "to": "G59"
+        },
+        {
+          "from": "G59",
+          "to": "G75"
+        },
+        {
+          "from": "G75",
+          "to": "G59"
+        },
+        {
+          "from": "G62",
+          "to": "G28"
+        },
+        {
+          "from": "G28",
+          "to": "G62"
+        },
+        {
+          "from": "G62",
+          "to": "G76"
+        },
+        {
+          "from": "G76",
+          "to": "G62"
+        },
+        {
+          "from": "G65",
+          "to": "G66"
+        },
+        {
+          "from": "G66",
+          "to": "G65"
+        },
+        {
+          "from": "G65",
+          "to": "G76"
+        },
+        {
+          "from": "G76",
+          "to": "G65"
+        },
+        {
+          "from": "G67",
+          "to": "G10"
+        },
+        {
+          "from": "G10",
+          "to": "G67"
+        },
+        {
+          "from": "G68",
+          "to": "G13"
+        },
+        {
+          "from": "G13",
+          "to": "G68"
+        },
+        {
+          "from": "G69",
+          "to": "G9"
+        },
+        {
+          "from": "G9",
+          "to": "G69"
+        },
+        {
+          "from": "G69",
+          "to": "G25"
+        },
+        {
+          "from": "G25",
+          "to": "G69"
+        },
+        {
+          "from": "G70",
+          "to": "G16"
+        },
+        {
+          "from": "G16",
+          "to": "G70"
+        },
+        {
+          "from": "G70",
+          "to": "G25"
+        },
+        {
+          "from": "G25",
+          "to": "G70"
+        },
+        {
+          "from": "G70",
+          "to": "G76"
+        },
+        {
+          "from": "G76",
+          "to": "G70"
+        },
+        {
+          "from": "G71",
+          "to": "G65"
+        },
+        {
+          "from": "G65",
+          "to": "G71"
+        },
+        {
+          "from": "G72",
+          "to": "G45"
+        },
+        {
+          "from": "G45",
+          "to": "G72"
+        },
+        {
+          "from": "G73",
+          "to": "G77"
+        },
+        {
+          "from": "G77",
+          "to": "G73"
+        },
+        {
+          "from": "G74",
+          "to": "G73"
+        },
+        {
+          "from": "G73",
+          "to": "G74"
+        },
+        {
+          "from": "G75",
+          "to": "G74"
+        },
+        {
+          "from": "G74",
+          "to": "G75"
+        },
+        {
+          "from": "G76",
+          "to": "G73"
+        },
+        {
+          "from": "G73",
+          "to": "G76"
+        },
+        {
+          "from": "G77",
+          "to": "G49"
+        },
+        {
+          "from": "G49",
+          "to": "G77"
+        }
+      ]
+    },
+    {
+      "region_id": "R1",
+      "num_gates": 11,
+      "num_internal_connections": 22,
+      "num_seed_gates": 1,
+      "max_suspicion": 0.2089,
+      "mean_suspicion": 0.0703,
+      "gates": [
+        {
+          "id": "G0",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.1306,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G1",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G2",
+          "is_seed": false,
+          "cell_family": "INV",
+          "fan_in": 6,
+          "fan_out": 6,
+          "gnn_suspicion_score": 0.031,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G3",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.0053,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G4",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0453,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G5",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0566,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G6",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0683,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G7",
+          "is_seed": true,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.2089,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G8",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0926,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G9",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0984,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G10",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.0359,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        }
+      ],
+      "internal_connections": [
+        {
+          "from": "G0",
+          "to": "G3"
+        },
+        {
+          "from": "G3",
+          "to": "G0"
+        },
+        {
+          "from": "G2",
+          "to": "G3"
+        },
+        {
+          "from": "G3",
+          "to": "G2"
+        },
+        {
+          "from": "G2",
+          "to": "G9"
+        },
+        {
+          "from": "G9",
+          "to": "G2"
+        },
+        {
+          "from": "G3",
+          "to": "G1"
+        },
+        {
+          "from": "G1",
+          "to": "G3"
+        },
+        {
+          "from": "G3",
+          "to": "G7"
+        },
+        {
+          "from": "G7",
+          "to": "G3"
+        },
+        {
+          "from": "G4",
+          "to": "G6"
+        },
+        {
+          "from": "G6",
+          "to": "G4"
+        },
+        {
+          "from": "G5",
+          "to": "G6"
+        },
+        {
+          "from": "G6",
+          "to": "G5"
+        },
+        {
+          "from": "G6",
+          "to": "G7"
+        },
+        {
+          "from": "G7",
+          "to": "G6"
+        },
+        {
+          "from": "G7",
+          "to": "G8"
+        },
+        {
+          "from": "G8",
+          "to": "G7"
+        },
+        {
+          "from": "G8",
+          "to": "G9"
+        },
+        {
+          "from": "G9",
+          "to": "G8"
+        },
+        {
+          "from": "G10",
+          "to": "G8"
+        },
+        {
+          "from": "G8",
+          "to": "G10"
+        }
+      ]
+    },
+    {
+      "region_id": "R2",
+      "num_gates": 16,
+      "num_internal_connections": 38,
+      "num_seed_gates": 1,
+      "max_suspicion": 0.1957,
+      "mean_suspicion": 0.0424,
+      "gates": [
+        {
+          "id": "G0",
+          "is_seed": true,
+          "cell_family": "UNKNOWN",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.1957,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G1",
+          "is_seed": false,
+          "cell_family": "INV",
+          "fan_in": 6,
+          "fan_out": 6,
+          "gnn_suspicion_score": 0.1057,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G2",
+          "is_seed": false,
+          "cell_family": "INV",
+          "fan_in": 5,
+          "fan_out": 5,
+          "gnn_suspicion_score": 0.0692,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G3",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0346,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G4",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.055,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G5",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 4,
+          "fan_out": 4,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G6",
+          "is_seed": false,
+          "cell_family": "INV",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G7",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G8",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0087,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G9",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0109,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G10",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0066,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G11",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.056,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G12",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G13",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0808,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G14",
+          "is_seed": false,
+          "cell_family": "NAND",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G15",
+          "is_seed": false,
+          "cell_family": "INV",
+          "fan_in": 2,
+          "fan_out": 2,
+          "gnn_suspicion_score": 0.0559,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        }
+      ],
+      "internal_connections": [
+        {
+          "from": "G0",
+          "to": "G1"
+        },
+        {
+          "from": "G1",
+          "to": "G0"
+        },
+        {
+          "from": "G0",
+          "to": "G8"
+        },
+        {
+          "from": "G8",
+          "to": "G0"
+        },
+        {
+          "from": "G0",
+          "to": "G11"
+        },
+        {
+          "from": "G11",
+          "to": "G0"
+        },
+        {
+          "from": "G0",
+          "to": "G13"
+        },
+        {
+          "from": "G13",
+          "to": "G0"
+        },
+        {
+          "from": "G1",
+          "to": "G4"
+        },
+        {
+          "from": "G4",
+          "to": "G1"
+        },
+        {
+          "from": "G1",
+          "to": "G7"
+        },
+        {
+          "from": "G7",
+          "to": "G1"
+        },
+        {
+          "from": "G1",
+          "to": "G10"
+        },
+        {
+          "from": "G10",
+          "to": "G1"
+        },
+        {
+          "from": "G1",
+          "to": "G12"
+        },
+        {
+          "from": "G12",
+          "to": "G1"
+        },
+        {
+          "from": "G1",
+          "to": "G14"
+        },
+        {
+          "from": "G14",
+          "to": "G1"
+        },
+        {
+          "from": "G2",
+          "to": "G4"
+        },
+        {
+          "from": "G4",
+          "to": "G2"
+        },
+        {
+          "from": "G2",
+          "to": "G11"
+        },
+        {
+          "from": "G11",
+          "to": "G2"
+        },
+        {
+          "from": "G6",
+          "to": "G13"
+        },
+        {
+          "from": "G13",
+          "to": "G6"
+        },
+        {
+          "from": "G7",
+          "to": "G9"
+        },
+        {
+          "from": "G9",
+          "to": "G7"
+        },
+        {
+          "from": "G8",
+          "to": "G9"
+        },
+        {
+          "from": "G9",
+          "to": "G8"
+        },
+        {
+          "from": "G10",
+          "to": "G5"
+        },
+        {
+          "from": "G5",
+          "to": "G10"
+        },
+        {
+          "from": "G11",
+          "to": "G5"
+        },
+        {
+          "from": "G5",
+          "to": "G11"
+        },
+        {
+          "from": "G13",
+          "to": "G3"
+        },
+        {
+          "from": "G3",
+          "to": "G13"
+        },
+        {
+          "from": "G14",
+          "to": "G3"
+        },
+        {
+          "from": "G3",
+          "to": "G14"
+        },
+        {
+          "from": "G15",
+          "to": "G8"
+        },
+        {
+          "from": "G8",
+          "to": "G15"
+        }
+      ]
+    },
+    {
+      "region_id": "R3",
+      "num_gates": 4,
+      "num_internal_connections": 6,
+      "num_seed_gates": 1,
+      "max_suspicion": 0.1953,
+      "mean_suspicion": 0.0887,
+      "gates": [
+        {
+          "id": "G0",
+          "is_seed": false,
+          "cell_family": "UNKNOWN",
+          "fan_in": 1,
+          "fan_out": 1,
+          "gnn_suspicion_score": 0.0743,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G1",
+          "is_seed": true,
+          "cell_family": "UNKNOWN",
+          "fan_in": 1,
+          "fan_out": 1,
+          "gnn_suspicion_score": 0.1953,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G2",
+          "is_seed": false,
+          "cell_family": "INV",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0851,
+          "role_hint": "logic",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        },
+        {
+          "id": "G3",
+          "is_seed": false,
+          "cell_family": "NOR",
+          "fan_in": 3,
+          "fan_out": 3,
+          "gnn_suspicion_score": 0.0,
+          "role_hint": "possible_trigger",
+          "temporal_profile": {
+            "p1": 0.5,
+            "toggle_rate": 0.5,
+            "entropy": 1.0,
+            "rare_score": 0.5
+          }
+        }
+      ],
+      "internal_connections": [
+        {
+          "from": "G0",
+          "to": "G2"
+        },
+        {
+          "from": "G2",
+          "to": "G0"
+        },
+        {
+          "from": "G2",
+          "to": "G3"
+        },
+        {
+          "from": "G3",
+          "to": "G2"
+        },
+        {
+          "from": "G2",
+          "to": "G1"
+        },
+        {
+          "from": "G1",
+          "to": "G2"
+        }
+      ]
+    }
+  ]
+}

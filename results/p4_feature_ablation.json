@@ -1,0 +1,17 @@
+{
+  "fold": "c2670",
+  "train_samples": 36479,
+  "test_samples": 16020,
+  "structural_only": {
+    "num_features": 22,
+    "auroc": 0.9535,
+    "auprc": 0.3937
+  },
+  "structural_plus_temporal": {
+    "num_features": 26,
+    "auroc": 0.9717,
+    "auprc": 0.4953
+  },
+  "auprc_improvement": 0.1016,
+  "auroc_improvement": 0.0182
+}

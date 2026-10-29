@@ -1,0 +1,26 @@
+{
+  "run_id": "gcn_seed42",
+  "seed": 42,
+  "test_family": "c2670",
+  "param_count": 6534,
+  "wall_time_seconds": 1089.5260701179504,
+  "best_epoch": 11,
+  "stopped_epoch": 36,
+  "stopped_early": true,
+  "best_val_auprc": 0.12333250727911999,
+  "calibrated_threshold": 0.9,
+  "test_metrics": {
+    "auroc": 0.9972891802119639,
+    "auprc": 0.8548793385177956,
+    "top_10_precision": 1.0,
+    "top_10_recall": 0.013831258644536652,
+    "top_10_f1": 0.027285129604365622,
+    "threshold": 0.9,
+    "precision": 0.388857938718663,
+    "recall": 0.9654218533886584,
+    "f1": 0.5544082605242255,
+    "brier_score": 0.020538959257164095,
+    "ece": 0.029617492210248054,
+    "loss": 0.07377810226661144
+  }
+}

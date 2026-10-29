@@ -1,0 +1,82 @@
+{
+  "c2670": {
+    "train_count": 710,
+    "val_count": 111,
+    "test_count": 101,
+    "test_family": "c2670",
+    "val_family": "c5315",
+    "test_nodes": 108365,
+    "test_trojan_nodes": 723,
+    "test_pos_rate_pct": 0.667
+  },
+  "c3540": {
+    "train_count": 710,
+    "val_count": 111,
+    "test_count": 101,
+    "test_family": "c3540",
+    "val_family": "c6288",
+    "test_nodes": 123053,
+    "test_trojan_nodes": 712,
+    "test_pos_rate_pct": 0.579
+  },
+  "c5315": {
+    "train_count": 660,
+    "val_count": 151,
+    "test_count": 111,
+    "test_family": "c5315",
+    "val_family": "s13207",
+    "test_nodes": 290362,
+    "test_trojan_nodes": 874,
+    "test_pos_rate_pct": 0.301
+  },
+  "c6288": {
+    "train_count": 719,
+    "val_count": 92,
+    "test_count": 111,
+    "test_family": "c6288",
+    "val_family": "s1423",
+    "test_nodes": 276122,
+    "test_trojan_nodes": 842,
+    "test_pos_rate_pct": 0.305
+  },
+  "s13207": {
+    "train_count": 620,
+    "val_count": 151,
+    "test_count": 151,
+    "test_family": "s13207",
+    "val_family": "s15850",
+    "test_nodes": 377021,
+    "test_trojan_nodes": 4655,
+    "test_pos_rate_pct": 1.235
+  },
+  "s1423": {
+    "train_count": 726,
+    "val_count": 104,
+    "test_count": 92,
+    "test_family": "s1423",
+    "val_family": "s35932",
+    "test_nodes": 48675,
+    "test_trojan_nodes": 2215,
+    "test_pos_rate_pct": 4.551
+  },
+  "s15850": {
+    "train_count": 670,
+    "val_count": 101,
+    "test_count": 151,
+    "test_family": "s15850",
+    "val_family": "c2670",
+    "test_nodes": 479012,
+    "test_trojan_nodes": 4872,
+    "test_pos_rate_pct": 1.017
+  },
+  "s35932": {
+    "train_count": 717,
+    "val_count": 101,
+    "test_count": 104,
+    "test_family": "s35932",
+    "val_family": "c3540",
+    "test_nodes": 751132,
+    "test_trojan_nodes": 2644,
+    "test_pos_rate_pct": 0.352
+  }
+}

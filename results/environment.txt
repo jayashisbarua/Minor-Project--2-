@@ -1,0 +1,55 @@
+aiohappyeyeballs==2.7.1
+aiohttp==3.14.5
+aiosignal==1.4.0
+async-timeout==5.0.1
+attrs==26.1.0
+certifi==2026.10.23
+charset-normalizer==3.5.2
+cloudpickle @ file:///Users/ec2-user/croot/cloudpickle_1792173325237/work
+contourpy==1.3.2
+cycler==0.12.1
+exceptiongroup==1.3.1
+filelock==4.1.0
+fonttools==4.65.0
+frozenlist==1.8.0
+fsspec==2026.9.0
+idna==3.20
+iniconfig==2.3.1
+Jinja2==3.1.6
+joblib @ file:///Users/ec2-user/croot/joblib_1790766861417/work
+kiwisolver==1.5.1
+MarkupSafe==3.0.4
+matplotlib==3.10.9
+mpmath==1.3.0
+multidict==7.1.0
+networkx==3.4.2
+numpy @ file:///Users/ec2-user/croot/numpy_and_numpy_base_1776190111216/work/dist/numpy-2.2.5-cp310-cp310-macosx_12_0_arm64.whl#sha256=326d9d5013597eccd52c88298745e8d735795390dd35c890e370f499d772402d
+packaging==26.3
+pandas==2.3.3
+pillow==12.3.0
+pluggy==1.7.0
+propcache==0.5.4
+psutil==7.2.2
+Pygments==2.21.0
+pyparsing==3.3.3
+pytest==9.2.0
+python-dateutil==3.0.0
+pytz==2026.5
+PyYAML==6.0.3
+requests==2.34.2
+scikit-learn @ file:///opt/miniconda3/conda-bld/scikit-learn_1764838070583/work
+scipy @ file:///Users/ec2-user/croot/scipy_1776277662480/work/dist/scipy-1.15.3-cp310-cp310-macosx_12_0_arm64.whl#sha256=72898ba55283883e66f58038b711947703f9baf422f6e677ccff37a9ca6e025a
+six==1.17.0
+sympy==1.14.0
+threadpoolctl @ file:///Users/ec2-user/croot/threadpoolctl_1793013013039/work
+tomli==2.5.0
+torch==2.14.1
+torch-geometric==2.8.1
+torchaudio==2.11.1
+torchvision==0.29.2
+tqdm==4.70.1
+typing_extensions==4.16.0
+tzdata==2026.6
+urllib3==2.8.0
+xxhash==4.0.2
+yarl==1.25.1

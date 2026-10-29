@@ -1,0 +1,39 @@
+{
+  "majority_verdict": "trojan_detected",
+  "agreement_ratio": 1.0,
+  "confidence_mean": 75.0,
+  "confidence_std": 0.0,
+  "num_trials": 3,
+  "responses": [
+    {
+      "verdict": "trojan_detected",
+      "confidence_0_100": 75,
+      "evidence": [
+        "High fan-in AND gate pattern",
+        "Low toggle rate"
+      ],
+      "explanation": "Stub response for testing",
+      "fix": "Remove suspicious gates G0-G2"
+    },
+    {
+      "verdict": "trojan_detected",
+      "confidence_0_100": 75,
+      "evidence": [
+        "High fan-in AND gate pattern",
+        "Low toggle rate"
+      ],
+      "explanation": "Stub response for testing",
+      "fix": "Remove suspicious gates G0-G2"
+    },
+    {
+      "verdict": "trojan_detected",
+      "confidence_0_100": 75,
+      "evidence": [
+        "High fan-in AND gate pattern",
+        "Low toggle rate"
+      ],
+      "explanation": "Stub response for testing",
+      "fix": "Remove suspicious gates G0-G2"
+    }
+  ]
+}

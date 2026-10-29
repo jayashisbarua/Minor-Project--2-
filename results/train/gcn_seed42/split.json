@@ -1,0 +1,7 @@
+{
+  "run_id": "gcn_seed42",
+  "test_family": "c2670",
+  "train_graphs": 710,
+  "val_graphs": 111,
+  "test_graphs": 101
+}

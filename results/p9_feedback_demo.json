@@ -1,0 +1,26 @@
+{
+  "feedback_epochs": 3,
+  "beta": 0.1,
+  "gamma": 0.05,
+  "use_contrastive": true,
+  "history": [
+    {
+      "epoch": 1,
+      "total_loss": 0.406224,
+      "distillation_loss": 0.070209,
+      "contrastive_loss": 0.679464
+    },
+    {
+      "epoch": 2,
+      "total_loss": 0.396667,
+      "distillation_loss": 0.073966,
+      "contrastive_loss": 0.696175
+    },
+    {
+      "epoch": 3,
+      "total_loss": 0.387246,
+      "distillation_loss": 0.076319,
+      "contrastive_loss": 0.631205
+    }
+  ]
+}

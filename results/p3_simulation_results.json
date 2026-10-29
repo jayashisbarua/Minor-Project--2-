@@ -1,0 +1,14 @@
+{
+  "clean_benchmark_design": "s13207scan.v",
+  "clean_nodes": 2466,
+  "clean_edges": 6044,
+  "clean_runtime_seconds": 13.55,
+  "avg_sample_runtime_seconds": 8.02,
+  "sample_netlists_count": 40,
+  "trigger_gates_count": 398,
+  "trigger_rare_score_mean": 0.0706,
+  "trigger_rare_score_median": 0.0039,
+  "other_gates_count": 110047,
+  "other_rare_score_mean": 0.2775,
+  "other_rare_score_median": 0.3105
+}

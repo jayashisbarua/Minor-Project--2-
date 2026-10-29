@@ -166,3 +166,4 @@ make test
 3. **Leave-One-Family-Out (LOFO)**: Test family designs are strictly isolated from training and validation splits.
 4. **Offline Resilience**: LLM modules default to deterministic `StubBackend` for local development without active external LLM endpoints.
 
+# Minor-Project-new

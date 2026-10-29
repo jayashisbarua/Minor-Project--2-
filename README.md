@@ -167,3 +167,4 @@ make test
 4. **Offline Resilience**: LLM modules default to deterministic `StubBackend` for local development without active external LLM endpoints.
 
 # Minor-Project-new
+# Minor-Project-new
